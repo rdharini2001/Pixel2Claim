@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+pydicom
+idc-index
+Pillow
+torch
+transformers
+accelerate
+bitsandbytes
+
