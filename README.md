@@ -6,6 +6,10 @@ DICOM headers include attributes like the body part studied and use of contrast 
 
 There is a record of evidence behind every decision. A deterministic verifier is used to check the natural language explanations generated from that record. Free-text header fields are treated as untrusted data, and are never provided to a model as instructions.
 
+![Pixel2Claim pipeline](docs/figures/pipeline.svg)
+
+*Figure 1. Pixel2Claim Pipeline*
+
 ## Contributions
 
 1. Per-field accept, override and escalate decisions with a stated error rate on accepted tags, measured on an image collection held out from calibration.
